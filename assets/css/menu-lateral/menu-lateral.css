@@ -5,7 +5,7 @@
     padding: 2em 1em;
     position: absolute;
     top: 0;
-    transition: left .5s linear;
+    transition: left .2s linear;
     width: 40vw;
     z-index: 999999;
 }

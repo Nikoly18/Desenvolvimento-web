@@ -1,6 +1,8 @@
-const iconeHamburguer = document.querySelector("[data-icone-hamburguer]");
+const iconesDeEstado = document.querySelectorAll("[data-icone-estado]");
 const menuLateral = document.querySelector("[data-menu-lateral]");
 
-iconeHamburguer.addEventListener("click", () => {
-    menuLateral.classList.add("ativo");
+iconesDeEstado.forEach(icone => {
+    icone.addEventListener("click", () => {
+        menuLateral.classList.toggle("lateral--ativo");
+    });
 });
