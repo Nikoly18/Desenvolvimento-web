@@ -16,6 +16,6 @@
 .cabecalho__titulo {
     font-size: var(--fonte-tamanho-cabecalho);
     font-weight: var(--fonte-peso-cabecalho);
-    flex-grow: 7;
+    flex-grow: 6;
     text-transform: uppercase;
 }

@@ -1,0 +1,11 @@
+.principal {
+    background-image: linear-gradient(#ffffff, #a89f9f,#8b8484, #5f5e5ed8);
+    box-sizing: border-box;
+    height: auto;
+    padding: 1em;
+}
+
+.principal__secao {
+    box-shadow: 1px 1px 5px rgb(59, 59, 59);
+    margin: 1em 0;
+}

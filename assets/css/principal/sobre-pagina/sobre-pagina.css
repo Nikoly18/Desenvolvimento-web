@@ -1,0 +1,20 @@
+.principal__sobre-pagina {
+    background-image: var(--cor-fundo-secao-sobre-pagina);
+    border-radius: 15px;
+    color: var(--cor-fonte-secao-sobre-pagina);
+    padding: 1em;
+}
+
+.sobre-pagina__titulo {
+    font-size: var(--fonte-tamanho-secao-sobre-pagina);
+    font-weight: var(--fonte-peso-secao-sobre-pagina);
+    text-align: center;
+}
+
+.sobre-pagina__paragrafo {
+    text-indent: 30px;
+}
+
+.sobre-pagina__paragrafo:not(.sobre-pagina__paragrafo:last-child) {
+    margin: 16px 0;
+}

@@ -16,6 +16,20 @@
         --cor-borda-link-menu-lateral: #a7a4a4;
         --cor-borda-link-ativo-menu-lateral: #7e6666;
     /* Menu lateral */
+    /* Principal */
+        /* Sobre o autor */
+            --cor-fundo-secao-sobre-autor: linear-gradient(#010175cb, #01014bda);
+            --cor-fonte-secao-sobre-autor: #FFFFFF;
+            --fonte-tamanho-secao-sobre-autor: 22px;
+            --fonte-peso-secao-sobre-autor: 700;
+        /* Sobre o autor */
+        /* Sobre a página */
+            --cor-fundo-secao-sobre-pagina: linear-gradient(#015e75cb, #01364bda);
+            --cor-fonte-secao-sobre-pagina: #FFFFFF;
+            --fonte-tamanho-secao-sobre-pagina: 22px;
+            --fonte-peso-secao-sobre-pagina: 700;
+        /* Sobre a página */
+    /* Principal */
 }
 
 /* Estilos globais da página */
