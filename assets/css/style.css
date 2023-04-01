@@ -3,17 +3,23 @@
     /* Body */
         --fonte-tamanho-padrao-16px: 16px;
         --fonte-peso-padrao-400: 400;
-        --fonte-padrao-roboto: 'Roboto', sans-serif;
+        --fonte-padrao-familia-roboto: 'Roboto', sans-serif;
+        --fonte-cor-padrao: #000000;
     /* Body */
     /* Cabeçalho */
         --fonte-tamanho-cabecalho: 28px;
         --fonte-peso-cabecalho: 700;
     /* Cabeçalho */
+    /* Menu lateral */
+        --cor-fundo-menu-lateral: #F2F2F2;
+        --fonte-peso-menu-lateral: 400;
+    /* Menu lateral */
 }
 
 /* Estilos globais da página */
 body {
-    font-family: var(--fonte-padrao-roboto);
+    color: var(--fonte-cor-padrao);
+    font-family: var(--fonte-padrao-familia-roboto);
     font-size: var(--fonte-tamanho-padrao-16px);
     font-weight: var(--fonte-peso-padrao-400);
     height: calc(100vh);

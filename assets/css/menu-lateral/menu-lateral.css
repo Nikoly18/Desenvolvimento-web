@@ -1,0 +1,62 @@
+.lateral {
+    background-color: var(--cor-fundo-menu-lateral);
+    height: calc(100vh - 2em - 32px);
+    left: calc(-40vw - 2em);
+    padding: 2em 1em;
+    position: absolute;
+    top: 0;
+    transition: left .5s linear;
+    width: 40vw;
+    z-index: 999999;
+}
+
+.lateral--ativo {
+    left: 0;
+}
+
+.lateral__botao-sair {
+    margin: 0 0 25px 30vw;
+    width: auto;
+}
+
+.lateral__lista-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lista-links__link {
+    align-items: center;
+    display: flex;
+    color: var(--fonte-cor-padrao);
+    font-weight: var(--fonte-peso-menu-lateral);
+    justify-content: space-between;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link__icone {
+    box-shadow: unset 5px 5px 5px black;
+}
+
+.icone-home::before {
+    content: url(../../img/icones/home.png);
+    margin-left: 4px;
+}
+
+.icone-html::before {
+    content: url(../../img/icones/html.png);
+}
+
+.icone-css::before {
+    content: url(../../img/icones/css.png);
+}
+
+.icone-js::before {
+    content: url(../../img/icones/js.png);
+    border-radius: 50%;
+}
+
+.link__sigla {
+    text-decoration: none;
+}
