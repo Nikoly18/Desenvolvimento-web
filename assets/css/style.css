@@ -12,7 +12,9 @@
     /* Cabeçalho */
     /* Menu lateral */
         --cor-fundo-menu-lateral: #F2F2F2;
-        --fonte-peso-menu-lateral: 400;
+        --fonte-peso-menu-lateral: 500;
+        --cor-borda-link-menu-lateral: #a7a4a4;
+        --cor-borda-link-ativo-menu-lateral: #7e6666;
     /* Menu lateral */
 }
 

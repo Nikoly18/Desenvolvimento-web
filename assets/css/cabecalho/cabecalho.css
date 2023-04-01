@@ -5,6 +5,10 @@
     padding: 1em;
 }
 
+.icone {
+    cursor: pointer;
+}
+
 .cabecalho__menu-hamburguer {
     flex-grow: 1;
 }
