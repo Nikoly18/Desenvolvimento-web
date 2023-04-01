@@ -1,0 +1,22 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.icone {
+    background-color: transparent;
+    border: none;
+}
+
+.cabecalho__menu-hamburguer {
+    flex-grow: 1;
+}
+
+.cabecalho__titulo {
+    font-size: var(--fonte-tamanho-cabecalho);
+    font-weight: var(--fonte-peso-cabecalho);
+    flex-grow: 7;
+    text-transform: uppercase;
+}

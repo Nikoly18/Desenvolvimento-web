@@ -1,0 +1,20 @@
+/* Variáveis CSS globais*/
+:root {
+    /* Body */
+        --fonte-tamanho-padrao-16px: 16px;
+        --fonte-peso-padrao-400: 400;
+        --fonte-padrao-roboto: 'Roboto', sans-serif;
+    /* Body */
+    /* Cabeçalho */
+        --fonte-tamanho-cabecalho: 28px;
+        --fonte-peso-cabecalho: 700;
+    /* Cabeçalho */
+}
+
+/* Estilos globais da página */
+body {
+    font-family: var(--fonte-padrao-roboto);
+    font-size: var(--fonte-tamanho-padrao-16px);
+    font-weight: var(--fonte-peso-padrao-400);
+    height: calc(100vh);
+}
