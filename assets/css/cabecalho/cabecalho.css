@@ -5,11 +5,6 @@
     padding: 1em;
 }
 
-.icone {
-    background-color: transparent;
-    border: none;
-}
-
 .cabecalho__menu-hamburguer {
     flex-grow: 1;
 }

@@ -12,6 +12,7 @@
         <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
         <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
         <link type="text/css" rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+        <link type="text/css" rel="stylesheet" href="./assets/css/menu-lateral/menu-lateral.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
@@ -19,16 +20,44 @@
     </head>
     <body>
         <header class="cabecalho">
-            <button class="cabecalho__menu-hamburguer icone">
+            <button class="cabecalho__menu-hamburguer icone" data-icone-hamburguer>
                 <img src="https://img.icons8.com/ios-filled/30/null/menu-rounded.png" alt class="menu-hamburguer__imagem">
             </button>
             <h1 class="cabecalho__titulo">inoylk</h1>
             <button class="cabecalho__carrinho-compras icone">
-                <img src="https://img.icons8.com/android/24/null/buy.png" alt class="carrinho-compras__carrinho">
+                <img src="https://img.icons8.com/android/24/null/buy.png" alt aria-label="Abrir menu lateral" class="carrinho-compras__carrinho">
             </button>
         </header>
-        <aside class="lateral">
-
+        <aside class="lateral" data-menu-lateral>
+            <button class="lateral__botao-sair">
+                <img src="https://img.icons8.com/android/24/null/cancel.png" alt aria-label="Fechar menu lateral" class="botao-sair__sair">
+            </button>
+            <ul class="lateral__lista-links">
+                <li class="lista-links__item">
+                    <a href="#" target="_self" rel="next" class="lista-links__link">Home</a>
+                </li>
+                <li class="lista-links__item">
+                    <a href="#" target="_self" rel="next" class="lista-links__link">
+                        <abbr title="Hyper Text Markup Language" class="link__sigla">
+                            HTML
+                        </abbr>
+                    </a>
+                </li>
+                <li class="lista-links__item">
+                    <a href="#" target="_self" rel="next" class="lista-links__link">
+                        <abbr title="Cascading Style Sheets" class="link__sigla">
+                            CSS
+                        </abbr>
+                    </a>
+                </li>
+                <li class="lista-links__item">
+                    <a href="#" target="_self" rel="next" class="lista-links__link">
+                        <abbr title="JavaScript" class="link__sigla">
+                            Js
+                        </abbr>
+                    </a>
+                </li>
+            </ul>
         </aside>
         <main class="principal">
 
@@ -36,5 +65,6 @@
         <footer class="rodape">
 
         </footer>
+        <script type="text/javascript" src="./assets/js/mobile/menu-lateral.js"></script>
     </body>
 </html>
